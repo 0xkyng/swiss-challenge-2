@@ -1,0 +1,278 @@
+{
+  "abi": [
+    {
+      "inputs": [],
+      "name": "getChallenge",
+      "outputs": [
+        {
+          "internalType": "string",
+          "name": "",
+          "type": "string"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "string",
+          "name": "_newChallenge",
+          "type": "string"
+        }
+      ],
+      "name": "setNewChallenge",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "bytecode": {
+    "object": "0x",
+    "sourceMap": "",
+    "linkReferences": {}
+  },
+  "deployedBytecode": {
+    "object": "0x",
+    "sourceMap": "",
+    "linkReferences": {}
+  },
+  "methodIdentifiers": {
+    "getChallenge()": "759014f0",
+    "setNewChallenge(string)": "9e93e5d4"
+  },
+  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.21+commit.d9974bed\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"getChallenge\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"string\",\"name\":\"_newChallenge\",\"type\":\"string\"}],\"name\":\"setNewChallenge\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"contracts/IChallenge.sol\":\"ISetChallenge\"},\"evmVersion\":\"paris\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[\":eth-gas-reporter/=node_modules/eth-gas-reporter/\",\":hardhat/=node_modules/hardhat/\"]},\"sources\":{\"contracts/IChallenge.sol\":{\"keccak256\":\"0x60f68c4adca000882784935815889fbc1000083148fe6adc629483a636672e75\",\"license\":\"UNLICENSED\",\"urls\":[\"bzz-raw://0bae294e1de289e1306eaf1fbf8f829ff8fdf133f8f6fc13d9a47159d7221141\",\"dweb:/ipfs/QmYQoTJofHeLrJ4wFpEtzwdiT8KZJP2QPC5PVViUQxuZQo\"]}},\"version\":1}",
+  "metadata": {
+    "compiler": {
+      "version": "0.8.21+commit.d9974bed"
+    },
+    "language": "Solidity",
+    "output": {
+      "abi": [
+        {
+          "inputs": [],
+          "stateMutability": "view",
+          "type": "function",
+          "name": "getChallenge",
+          "outputs": [
+            {
+              "internalType": "string",
+              "name": "",
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "inputs": [
+            {
+              "internalType": "string",
+              "name": "_newChallenge",
+              "type": "string"
+            }
+          ],
+          "stateMutability": "nonpayable",
+          "type": "function",
+          "name": "setNewChallenge"
+        }
+      ],
+      "devdoc": {
+        "kind": "dev",
+        "methods": {},
+        "version": 1
+      },
+      "userdoc": {
+        "kind": "user",
+        "methods": {},
+        "version": 1
+      }
+    },
+    "settings": {
+      "remappings": [
+        "eth-gas-reporter/=node_modules/eth-gas-reporter/",
+        "hardhat/=node_modules/hardhat/"
+      ],
+      "optimizer": {
+        "enabled": true,
+        "runs": 200
+      },
+      "metadata": {
+        "bytecodeHash": "ipfs"
+      },
+      "compilationTarget": {
+        "contracts/IChallenge.sol": "ISetChallenge"
+      },
+      "libraries": {}
+    },
+    "sources": {
+      "contracts/IChallenge.sol": {
+        "keccak256": "0x60f68c4adca000882784935815889fbc1000083148fe6adc629483a636672e75",
+        "urls": [
+          "bzz-raw://0bae294e1de289e1306eaf1fbf8f829ff8fdf133f8f6fc13d9a47159d7221141",
+          "dweb:/ipfs/QmYQoTJofHeLrJ4wFpEtzwdiT8KZJP2QPC5PVViUQxuZQo"
+        ],
+        "license": "UNLICENSED"
+      }
+    },
+    "version": 1
+  },
+  "ast": {
+    "absolutePath": "contracts/IChallenge.sol",
+    "id": 63,
+    "exportedSymbols": {
+      "ISetChallenge": [
+        62
+      ]
+    },
+    "nodeType": "SourceUnit",
+    "src": "39:190:1",
+    "nodes": [
+      {
+        "id": 51,
+        "nodeType": "PragmaDirective",
+        "src": "39:24:1",
+        "nodes": [],
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".19"
+        ]
+      },
+      {
+        "id": 62,
+        "nodeType": "ContractDefinition",
+        "src": "65:163:1",
+        "nodes": [
+          {
+            "id": 56,
+            "nodeType": "FunctionDefinition",
+            "src": "95:63:1",
+            "nodes": [],
+            "functionSelector": "9e93e5d4",
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "setNewChallenge",
+            "nameLocation": "104:15:1",
+            "parameters": {
+              "id": 54,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 53,
+                  "mutability": "mutable",
+                  "name": "_newChallenge",
+                  "nameLocation": "134:13:1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 56,
+                  "src": "120:27:1",
+                  "stateVariable": false,
+                  "storageLocation": "memory",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_memory_ptr",
+                    "typeString": "string"
+                  },
+                  "typeName": {
+                    "id": 52,
+                    "name": "string",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "120:6:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage_ptr",
+                      "typeString": "string"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "119:29:1"
+            },
+            "returnParameters": {
+              "id": 55,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "157:0:1"
+            },
+            "scope": 62,
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "id": 61,
+            "nodeType": "FunctionDefinition",
+            "src": "164:62:1",
+            "nodes": [],
+            "functionSelector": "759014f0",
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "getChallenge",
+            "nameLocation": "173:12:1",
+            "parameters": {
+              "id": 57,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "185:2:1"
+            },
+            "returnParameters": {
+              "id": 60,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 59,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 61,
+                  "src": "211:13:1",
+                  "stateVariable": false,
+                  "storageLocation": "memory",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_memory_ptr",
+                    "typeString": "string"
+                  },
+                  "typeName": {
+                    "id": 58,
+                    "name": "string",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "211:6:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage_ptr",
+                      "typeString": "string"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "210:15:1"
+            },
+            "scope": 62,
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "ISetChallenge",
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "fullyImplemented": false,
+        "linearizedBaseContracts": [
+          62
+        ],
+        "name": "ISetChallenge",
+        "nameLocation": "75:13:1",
+        "scope": 63,
+        "usedErrors": [],
+        "usedEvents": []
+      }
+    ],
+    "license": "UNLICENSED"
+  },
+  "id": 1
+}
